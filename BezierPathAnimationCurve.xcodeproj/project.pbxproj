@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19656287239A56A0795FC463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1965669C1EEDE29DB716848E /* main.m */; };
+		196562F2C86AD921E52F6BFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19656B04DA90857ACE8FA559 /* LaunchScreen.xib */; };
+		1965637D6EC83FEC55ADEE6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1965667EB71F3710A173FD55 /* Images.xcassets */; };
+		196565E9E6DF64A690EF84B9 /* UIView+bezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 19656024F703CADAB9589354 /* UIView+bezier.m */; };
+		1965681402226095A18A0747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19656AF00AB832030C48AB6B /* Main.storyboard */; };
+		196568CC58DE90CBDA767A73 /* BezierPathAnimationCurveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19656E79C3BE31ACE30A9ED3 /* BezierPathAnimationCurveTests.m */; };
+		19656DF9C48FF9198CA6BA56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196567D474DD24076531C1BC /* AppDelegate.m */; };
+		19656E9BEBFC6F908B68846D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1965679D829FC409AB5C506A /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1965674F7B00BD22E7F979E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19656067903EF32AA87A0E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196565C35ADAD40660684525;
+			remoteInfo = BezierPathAnimationCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19656024F703CADAB9589354 /* UIView+bezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+bezier.m"; sourceTree = "<group>"; };
+		196563433833382D5E88EEF8 /* BezierPathAnimationCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathAnimationCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196563898AD261FC6A6DA68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1965664B2CF27E4257F7975C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1965667EB71F3710A173FD55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1965669C1EEDE29DB716848E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1965679D829FC409AB5C506A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		196567D474DD24076531C1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19656A5EEC2C994AF57C9825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		19656A874CAC3E9FDB499702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19656C00964569FE06F0E6E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19656CEE34B045F52417B499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19656E6129D74680D803FAEA /* BezierPathAnimationCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPathAnimationCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19656E79C3BE31ACE30A9ED3 /* BezierPathAnimationCurveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathAnimationCurveTests.m; sourceTree = "<group>"; };
+		19656E8C9CF4E48ECDCC6576 /* UIView+bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+bezier.h"; sourceTree = "<group>"; };
+		5955A6F7AB5A49AE9AB4F116 /* Pods-BezierPathAnimationCurve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BezierPathAnimationCurve.release.xcconfig"; path = "Pods/Target Support Files/Pods-BezierPathAnimationCurve/Pods-BezierPathAnimationCurve.release.xcconfig"; sourceTree = "<group>"; };
+		82AE8CB41385E64526B05992 /* Pods-BezierPathAnimationCurve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BezierPathAnimationCurve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BezierPathAnimationCurve/Pods-BezierPathAnimationCurve.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A47D8ECB4C8798D62879B3 /* libPods-BezierPathAnimationCurve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BezierPathAnimationCurve.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1965665E9E69020F8264E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656B8A541FDAFC4093303B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19656069E8BE924880000EA7 = {
+			isa = PBXGroup;
+			children = (
+				19656983F0702C3A3A6BD449 /* Products */,
+				19656DBDED33E8F5D74ED062 /* BezierPathAnimationCurve */,
+				1965645B98A80370115EEC1D /* BezierPathAnimationCurveTests */,
+				614A87146BA1DFE487410F42 /* Pods */,
+				65F435CBA5D70A0497519E57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1965645B98A80370115EEC1D /* BezierPathAnimationCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				19656F81E52D9F755693C520 /* Supporting Files */,
+				19656E79C3BE31ACE30A9ED3 /* BezierPathAnimationCurveTests.m */,
+			);
+			path = BezierPathAnimationCurveTests;
+			sourceTree = "<group>";
+		};
+		196567178B6EC9DA969953F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				196563898AD261FC6A6DA68B /* Info.plist */,
+				1965669C1EEDE29DB716848E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19656983F0702C3A3A6BD449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19656E6129D74680D803FAEA /* BezierPathAnimationCurve.app */,
+				196563433833382D5E88EEF8 /* BezierPathAnimationCurveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19656DBDED33E8F5D74ED062 /* BezierPathAnimationCurve */ = {
+			isa = PBXGroup;
+			children = (
+				196567178B6EC9DA969953F8 /* Supporting Files */,
+				1965667EB71F3710A173FD55 /* Images.xcassets */,
+				19656B04DA90857ACE8FA559 /* LaunchScreen.xib */,
+				1965664B2CF27E4257F7975C /* AppDelegate.h */,
+				196567D474DD24076531C1BC /* AppDelegate.m */,
+				19656AF00AB832030C48AB6B /* Main.storyboard */,
+				19656C00964569FE06F0E6E3 /* ViewController.h */,
+				1965679D829FC409AB5C506A /* ViewController.m */,
+				19656024F703CADAB9589354 /* UIView+bezier.m */,
+				19656E8C9CF4E48ECDCC6576 /* UIView+bezier.h */,
+			);
+			path = BezierPathAnimationCurve;
+			sourceTree = "<group>";
+		};
+		19656F81E52D9F755693C520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19656A5EEC2C994AF57C9825 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		614A87146BA1DFE487410F42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8CB41385E64526B05992 /* Pods-BezierPathAnimationCurve.debug.xcconfig */,
+				5955A6F7AB5A49AE9AB4F116 /* Pods-BezierPathAnimationCurve.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65F435CBA5D70A0497519E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A47D8ECB4C8798D62879B3 /* libPods-BezierPathAnimationCurve.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19656426A0E2A1586ADCDB7D /* BezierPathAnimationCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196561A5504B5D62EB5B1E4D /* Build configuration list for PBXNativeTarget "BezierPathAnimationCurveTests" */;
+			buildPhases = (
+				19656A231980235A91E17B14 /* Sources */,
+				19656B8A541FDAFC4093303B /* Frameworks */,
+				19656F1F0B4F9A1B7E65AA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196569E4CCA5B71AD66741D2 /* PBXTargetDependency */,
+			);
+			name = BezierPathAnimationCurveTests;
+			productName = BezierPathAnimationCurveTests;
+			productReference = 196563433833382D5E88EEF8 /* BezierPathAnimationCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		196565C35ADAD40660684525 /* BezierPathAnimationCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19656A4315EA4AC0FD31D7AA /* Build configuration list for PBXNativeTarget "BezierPathAnimationCurve" */;
+			buildPhases = (
+				19656CB58950227E6BCC952E /* Sources */,
+				1965665E9E69020F8264E5A9 /* Frameworks */,
+				196565F6B1B5754CC953CA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierPathAnimationCurve;
+			productName = BezierPathAnimationCurve;
+			productReference = 19656E6129D74680D803FAEA /* BezierPathAnimationCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19656067903EF32AA87A0E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ian Dundas";
+			};
+			buildConfigurationList = 19656960B27AAB08D21C449E /* Build configuration list for PBXProject "BezierPathAnimationCurve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19656069E8BE924880000EA7;
+			productRefGroup = 19656983F0702C3A3A6BD449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196565C35ADAD40660684525 /* BezierPathAnimationCurve */,
+				19656426A0E2A1586ADCDB7D /* BezierPathAnimationCurveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196565F6B1B5754CC953CA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1965637D6EC83FEC55ADEE6D /* Images.xcassets in Resources */,
+				196562F2C86AD921E52F6BFA /* LaunchScreen.xib in Resources */,
+				1965681402226095A18A0747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656F1F0B4F9A1B7E65AA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19656A231980235A91E17B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196568CC58DE90CBDA767A73 /* BezierPathAnimationCurveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656CB58950227E6BCC952E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19656287239A56A0795FC463 /* main.m in Sources */,
+				19656DF9C48FF9198CA6BA56 /* AppDelegate.m in Sources */,
+				19656E9BEBFC6F908B68846D /* ViewController.m in Sources */,
+				196565E9E6DF64A690EF84B9 /* UIView+bezier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196569E4CCA5B71AD66741D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196565C35ADAD40660684525 /* BezierPathAnimationCurve */;
+			targetProxy = 1965674F7B00BD22E7F979E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19656AF00AB832030C48AB6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19656CEE34B045F52417B499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19656B04DA90857ACE8FA559 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19656A874CAC3E9FDB499702 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19656247C804CE520753C4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1965681F7077DA7D27299467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AE8CB41385E64526B05992 /* Pods-BezierPathAnimationCurve.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BezierPathAnimationCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		19656A3D58C1F4D28AF61C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BezierPathAnimationCurve.app/BezierPathAnimationCurve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BezierPathAnimationCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		19656B9F09CB6966E04E2B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BezierPathAnimationCurve.app/BezierPathAnimationCurve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BezierPathAnimationCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		19656D2B51BCB1B5CE90AAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19656F192AB922BA5E287CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5955A6F7AB5A49AE9AB4F116 /* Pods-BezierPathAnimationCurve.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BezierPathAnimationCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196561A5504B5D62EB5B1E4D /* Build configuration list for PBXNativeTarget "BezierPathAnimationCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19656A3D58C1F4D28AF61C84 /* Debug */,
+				19656B9F09CB6966E04E2B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19656960B27AAB08D21C449E /* Build configuration list for PBXProject "BezierPathAnimationCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19656D2B51BCB1B5CE90AAA2 /* Debug */,
+				19656247C804CE520753C4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19656A4315EA4AC0FD31D7AA /* Build configuration list for PBXNativeTarget "BezierPathAnimationCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1965681F7077DA7D27299467 /* Debug */,
+				19656F192AB922BA5E287CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19656067903EF32AA87A0E8D /* Project object */;
+}
